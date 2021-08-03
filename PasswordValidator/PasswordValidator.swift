@@ -25,6 +25,11 @@ final public class PasswordValidator {
      - returns:
      `true` if the password is correct or `false`
      */
+    
+    static let shared = PasswordValidator()
+    
+    private init() {  }
+    
     public static func validate(_ password: String) -> Bool {
         
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,16}$")
