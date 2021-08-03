@@ -14,7 +14,7 @@ import Foundation
  `Bool if the password is correct
  
 */
-class PasswordValidator {
+final public class PasswordValidator {
     
     /**
      - Check your password with this method
