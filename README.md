@@ -6,7 +6,7 @@
 * Должен иметь символы
 * Длина должна составлять 8-16 символов
 
-<img src="https://github.com/MudriyIlya/PasswordValidator/blob/main/example.png" width="600" />
+<img src="https://github.com/MudriyIlya/PasswordValidator/blob/main/example.png" width="400" />
 
 
 #### Установка с помощью Carthage
